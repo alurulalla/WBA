@@ -1,0 +1,11 @@
+D:\Murali\Ionic\WBApp\WBA.API\bin\Debug\netcoreapp2.0\WBA.API.deps.json
+D:\Murali\Ionic\WBApp\WBA.API\bin\Debug\netcoreapp2.0\WBA.API.runtimeconfig.json
+D:\Murali\Ionic\WBApp\WBA.API\bin\Debug\netcoreapp2.0\WBA.API.runtimeconfig.dev.json
+D:\Murali\Ionic\WBApp\WBA.API\bin\Debug\netcoreapp2.0\WBA.API.dll
+D:\Murali\Ionic\WBApp\WBA.API\bin\Debug\netcoreapp2.0\WBA.API.pdb
+D:\Murali\Ionic\WBApp\WBA.API\obj\Debug\netcoreapp2.0\WBA.API.csproj.CoreCompileInputs.cache
+D:\Murali\Ionic\WBApp\WBA.API\obj\Debug\netcoreapp2.0\WBA.API.AssemblyInfoInputs.cache
+D:\Murali\Ionic\WBApp\WBA.API\obj\Debug\netcoreapp2.0\WBA.API.AssemblyInfo.cs
+D:\Murali\Ionic\WBApp\WBA.API\obj\Debug\netcoreapp2.0\WBA.API.dll
+D:\Murali\Ionic\WBApp\WBA.API\obj\Debug\netcoreapp2.0\WBA.API.pdb
+D:\Murali\Ionic\WBApp\WBA.API\obj\Debug\netcoreapp2.0\WBA.API.csprojResolveAssemblyReference.cache
