@@ -10,6 +10,8 @@ namespace WBA.API.Helpers
         {
             CreateMap<UserForRegisterDto, User>();
             CreateMap<User, UserForListDto>();
+            CreateMap<PhotoForCreationDto, Photo>();
+            CreateMap<Photo, PhotoForReturnDto>();
         }
     }
 }

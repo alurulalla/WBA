@@ -14,6 +14,7 @@ using Microsoft.Extensions.Logging;
 using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using WBA.API.Data;
+using WBA.API.Helpers;
 
 namespace WBA.API
 {
@@ -30,8 +31,9 @@ namespace WBA.API
         public void ConfigureServices(IServiceCollection services)
         {
             var key = Encoding.ASCII.GetBytes(Configuration.GetSection("AppSettings:Token").Value);
-            services.AddDbContext<DataContext>(x => x.UseSqlServer(Configuration.GetConnectionString("DefaultConnection")));
-            services.BuildServiceProvider().GetService<DataContext>().Database.Migrate();
+            services.AddDbContext<DataContext>(x => x.UseSqlite(Configuration.GetConnectionString("DefaultConnection")));
+            //services.BuildServiceProvider().GetService<DataContext>().Database.Migrate();
+            services.Configure<CloudinarySettings>(Configuration.GetSection("CloudinarySettings"));
             services.AddCors();
             services.AddAutoMapper();
             services.AddScoped<IAuthRepository, AuthRepository>();
